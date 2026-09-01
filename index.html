@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ynara Lingeries — Moda Íntima</title>
+<meta name="description" content="Ynara Lingeries — lingerie que valoriza você em todos os momentos.">
+<link rel="icon" href="assets/logo.png">
+<style>
+:root{--pink:#f05a91;--soft:#fff3f7;--line:#f4c7d7;--ink:#171717;--muted:#666}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#fff}
+.top{background:#f7a9c2;text-align:center;padding:11px 16px;font-size:13px;font-weight:700}
+header{background:#fff9fb;border-bottom:1px solid #f4e0e8;position:sticky;top:0;z-index:20}
+.head{height:155px;display:flex;align-items:center;justify-content:space-between;max-width:1200px;margin:auto;padding:15px 24px}
+.menu{font-size:28px}.icons{display:flex;gap:22px;font-size:25px;align-items:center}.bag{position:relative}.count{position:absolute;right:-9px;top:-7px;background:var(--pink);color:#fff;border-radius:20px;font-size:10px;padding:3px 6px}
+.logo{height:140px;width:140px;object-fit:contain}.nav{display:flex;justify-content:center;gap:42px;padding:0 15px 15px;flex-wrap:wrap}.nav a{color:#111;text-decoration:none;font-size:15px}.nav a:first-child{border-bottom:2px solid var(--pink);padding-bottom:8px}
+.hero{min-height:400px;background:linear-gradient(90deg,#ffecef 0%,#ffe6ed 48%,#f8ccd9 100%);display:grid;grid-template-columns:1fr 1fr;overflow:hidden}
+.hero-copy{padding:72px max(24px,calc((100vw - 1080px)/2));padding-right:30px}.hero h1{font-family:Georgia,serif;font-size:48px;line-height:1.08;margin:0 0 20px;font-weight:500}.hero h1 span{color:var(--pink)}.hero p{font-size:18px;line-height:1.5;max-width:410px}.btn{display:inline-block;background:var(--pink);color:#fff;text-decoration:none;border-radius:4px;padding:14px 20px;margin-top:15px;font-weight:700}.hero-img{background:url('assets/hero.jpg') center/cover no-repeat;min-height:400px}
+.categories{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;max-width:1100px;margin:20px auto 25px;padding:0 18px}.cat{background:#fff5f8;border-radius:10px;padding:22px 15px;display:flex;gap:15px;align-items:center}.cat .ico{font-size:35px;color:var(--pink)}.cat b{display:block;margin-bottom:6px}.cat small{color:#444}
+.section-title{text-align:center;font-family:Georgia,serif;font-size:27px;margin:22px 0 18px;position:relative}.section-title:before,.section-title:after{content:"";display:inline-block;width:25%;height:1px;background:#ef9fba;vertical-align:middle;margin:0 25px}
+.products{max-width:1100px;margin:auto;padding:0 18px;display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.card{border:1px solid #f1d9e2;border-radius:9px;overflow:hidden;background:#fff}.card img{width:100%;height:220px;object-fit:cover;display:block}.card-body{padding:12px}.card h3{font-size:15px;margin:0 0 12px;font-weight:500}.price{font-size:17px;font-weight:800}.install{font-size:12px;margin-top:7px;color:#333}.heart{float:right;font-size:23px}
+.benefits{max-width:1100px;margin:35px auto;padding:0 18px;display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.benefit{text-align:center}.benefit .bico{font-size:30px;color:var(--pink)}.benefit b{display:block;margin-top:8px}.benefit small{color:#555}
+footer{margin-top:35px;background:#ffd1df;padding:38px 18px 15px}.foot{max-width:1100px;margin:auto;display:grid;grid-template-columns:1.2fr 1fr 1.4fr 1fr;gap:35px}.foot img{width:130px}.foot h4{margin:8px 0 14px}.foot a{display:block;color:#222;text-decoration:none;margin:9px 0;font-size:14px}.newsletter{display:flex;border:1px solid #f0a8c1;border-radius:6px;overflow:hidden;background:#fff}.newsletter input{min-width:0;flex:1;border:0;padding:12px;outline:0}.newsletter button{border:0;background:var(--pink);color:#fff;width:46px}.social{font-size:27px;display:flex;gap:20px}.copy{text-align:center;border-top:1px solid #efaac0;margin-top:25px;padding-top:14px;font-size:12px}
+@media(max-width:800px){.head{height:100px}.logo{height:90px;width:90px}.nav{gap:18px}.hero{grid-template-columns:1fr}.hero-copy{padding:45px 25px}.hero h1{font-size:38px}.hero-img{min-height:280px}.categories,.products,.benefits{grid-template-columns:repeat(2,1fr)}.foot{grid-template-columns:1fr 1fr}.section-title:before,.section-title:after{width:12%;margin:0 10px}}
+@media(max-width:480px){.icons{gap:10px}.nav{font-size:13px;gap:12px}.categories,.products,.benefits{grid-template-columns:1fr 1fr}.cat{padding:14px 10px}.cat .ico{font-size:26px}.card img{height:160px}.foot{grid-template-columns:1fr}.hero h1{font-size:34px}}
+</style>
+</head>
+<body>
+<div class="top">FRETE GRÁTIS PARA COMPRAS ACIMA DE R$199,90 ♡</div>
+<header>
+  <div class="head">
+    <div class="menu">☰</div>
+    <img class="logo" src="assets/logo.png" alt="Ynara Lingerie">
+    <div class="icons"><span>⌕</span><span>♙</span><span class="bag">♧<i class="count">0</i></span></div>
+  </div>
+  <nav class="nav">
+    <a href="#inicio">Início</a><a href="#lingeries">Lingeries</a><a href="#conjuntos">Conjuntos</a><a href="#calcinhas">Calcinhas</a><a href="#sutias">Sutiãs</a><a href="#pijamas">Pijamas</a><a href="#promocoes">Promoções</a><a href="#novidades">Novidades</a><a href="#contato">Contato</a>
+  </nav>
+</header>
+
+<main id="inicio">
+<section class="hero">
+  <div class="hero-copy">
+    <h1>Realce sua essência,<br><span>sinta-se única!</span></h1>
+    <p>♡<br>Lingeries que valorizam você<br>em todos os momentos.</p>
+    <a class="btn" href="#produtos">COMPRAR AGORA</a>
+  </div>
+  <div class="hero-img"></div>
+</section>
+
+<section class="categories" id="lingeries">
+  <div class="cat"><div class="ico">♧</div><div><b>SUTIÃS</b><small>Conforto e sustentação</small></div></div>
+  <div class="cat"><div class="ico">♡</div><div><b>CALCINHAS</b><small>Modelos para todos os estilos</small></div></div>
+  <div class="cat"><div class="ico">♧</div><div><b>CONJUNTOS</b><small>Perfeitos para você se sentir incrível</small></div></div>
+  <div class="cat"><div class="ico">♡</div><div><b>PIJAMAS</b><small>Noites mais leves e estilosas</small></div></div>
+</section>
+
+<h2 class="section-title" id="produtos">DESTAQUES</h2>
+<section class="products">
+  <article class="card"><img src="assets/produto1.jpg"><div class="card-body"><h3>Conjunto Renda Deluxe</h3><span class="price">R$ 129,90</span><span class="heart">♡</span><div class="install">6x de R$ 21,65</div></div></article>
+  <article class="card"><img src="assets/produto2.jpg"><div class="card-body"><h3>Conjunto Seduction</h3><span class="price">R$ 119,90</span><span class="heart">♡</span><div class="install">6x de R$ 19,98</div></div></article>
+  <article class="card"><img src="assets/produto3.jpg"><div class="card-body"><h3>Conjunto Luxury</h3><span class="price">R$ 139,90</span><span class="heart">♡</span><div class="install">6x de R$ 23,32</div></div></article>
+  <article class="card"><img src="assets/produto4.jpg"><div class="card-body"><h3>Sutiã Push Up</h3><span class="price">R$ 89,90</span><span class="heart">♡</span><div class="install">6x de R$ 14,98</div></div></article>
+</section>
+
+<section class="benefits">
+  <div class="benefit"><div class="bico">♧</div><b>FRETE GRÁTIS</b><small>Acima de R$199,90</small></div>
+  <div class="benefit"><div class="bico">□</div><b>ENVIO RÁPIDO</b><small>Para todo o Brasil</small></div>
+  <div class="benefit"><div class="bico">♡</div><b>COMPRA SEGURA</b><small>Seus dados protegidos</small></div>
+  <div class="benefit"><div class="bico">▤</div><b>PARCELE EM ATÉ 6X</b><small>Sem juros no cartão</small></div>
+</section>
+</main>
+
+<footer id="contato">
+<div class="foot">
+  <div><img src="assets/logo.png" alt="Ynara Lingerie"></div>
+  <div><h4>INSTITUCIONAL</h4><a href="#">Sobre nós</a><a href="#">Trocas e Devoluções</a><a href="#">Política de Privacidade</a><a href="#">Perguntas Frequentes</a><a href="#">Contato</a></div>
+  <div><h4>RECEBA NOSSAS NOVIDADES</h4><p>Cadastre-se e ganhe 10% OFF na sua primeira compra!</p><div class="newsletter"><input placeholder="Seu melhor e-mail"><button>➤</button></div></div>
+  <div><h4>SIGA-NOS</h4><div class="social"><span>◎</span><span>◉</span></div></div>
+</div>
+<div class="copy">© 2026 Ynara Lingeries — Todos os direitos reservados.</div>
+</footer>
+</body>
+</html>
